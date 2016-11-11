@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/checkin"}
-    clj-trakt.checkin
+(ns clj-trakt.checkin
+  "http://docs.trakt.apiary.io/reference/checkin"
   (:require [clj-trakt.core :as trakt]))
 
 (defn checkin

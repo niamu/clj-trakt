@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/search"}
-    clj-trakt.search
+(ns clj-trakt.search
+  "http://docs.trakt.apiary.io/reference/search"
   (:require [clj-trakt.core :as trakt]))
 
 (defn text

@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/scrobble"}
-    clj-trakt.scrobble
+(ns clj-trakt.scrobble
+  "http://docs.trakt.apiary.io/reference/scrobble"
   (:require [clj-trakt.core :as trakt]))
 
 (defn start

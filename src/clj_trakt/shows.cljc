@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/shows"}
-    clj-trakt.shows
+(ns clj-trakt.shows
+  "http://docs.trakt.apiary.io/reference/shows"
   (:require [clj-trakt.core :as trakt]))
 
 (defn trending

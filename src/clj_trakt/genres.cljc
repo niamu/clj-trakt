@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/genres"}
-    clj-trakt.genres
+(ns clj-trakt.genres
+  "http://docs.trakt.apiary.io/reference/genres"
   (:require [clj-trakt.core :as trakt]))
 
 (defn genres

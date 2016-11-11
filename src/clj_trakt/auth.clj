@@ -1,7 +1,6 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/authentication-devices"}
-    clj-trakt.auth
+(ns clj-trakt.auth
+  "http://docs.trakt.apiary.io/reference/authentication-devices"
   (:require [clj-trakt.core :as trakt]
-            [org.httpkit.client :as http]
             [clojure.data.json :as json]
             [overtone.at-at :as at-at]))
 

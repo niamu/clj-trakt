@@ -30,7 +30,7 @@ To begin using `clj-trakt` in your project you will first need to generate a val
 (def credentials
   {:api-url "https://api-v2launch.trakt.tv/"
    :client_id "39a6af3627ac61c416fd3ebd8da45e7b000df534f55faa0d7336dc6e99c2e915"
-   :client_secret "2797825b6b820708d5d401bc1fd7ae6b18bd6de401d292025ea40a049d03f640"}
+   :client_secret "2797825b6b820708d5d401bc1fd7ae6b18bd6de401d292025ea40a049d03f640"})
 
 (defn create-token
   [trakt-app]

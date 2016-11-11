@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/comments"}
-    clj-trakt.comments
+(ns clj-trakt.comments
+  "http://docs.trakt.apiary.io/reference/comments"
   (:require [clj-trakt.core :as trakt]))
 
 (defn add-comment

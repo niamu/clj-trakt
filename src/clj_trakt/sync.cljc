@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/sync"}
-    clj-trakt.sync
+(ns clj-trakt.sync
+  "http://docs.trakt.apiary.io/reference/sync"
   (:require [clj-trakt.core :as trakt]))
 
 (defn last-activities

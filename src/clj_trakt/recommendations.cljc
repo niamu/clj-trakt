@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/recommendations"}
-    clj-trakt.recommendations
+(ns clj-trakt.recommendations
+  "http://docs.trakt.apiary.io/reference/recommendations"
   (:require [clj-trakt.core :as trakt]))
 
 (defn movies

@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/seasons"}
-    clj-trakt.seasons
+(ns clj-trakt.seasons
+  "http://docs.trakt.apiary.io/reference/seasons"
   (:require [clj-trakt.core :as trakt]))
 
 (defn summary

@@ -1,5 +1,5 @@
-(ns ^{:doc "http://docs.trakt.apiary.io/reference/calendars"}
-    clj-trakt.calendars
+(ns clj-trakt.calendars
+  "http://docs.trakt.apiary.io/reference/calendars"
   (:require [clj-trakt.core :as trakt]))
 
 (defn my-shows
