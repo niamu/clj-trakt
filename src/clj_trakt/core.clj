@@ -20,7 +20,7 @@
   [response]
   (condp = (:status response)
     200 (json/read-str (:body response) :key-fn keyword)
-    (throw (Exception. response))))
+    (throw (ex-info "Error" response))))
 
 (defn request
   ([^clojure.lang.Keyword method credentials path]

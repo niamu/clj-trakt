@@ -1,4 +1,4 @@
-(defproject clj-trakt "1.0.1"
+(defproject clj-trakt "1.0.2"
   :description "Trakt API in Clojure"
   :url "http://github.com/niamu/clj-trakt"
   :license {:name "Eclipse Public License"
